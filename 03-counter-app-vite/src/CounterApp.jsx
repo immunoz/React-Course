@@ -20,7 +20,7 @@ function CounterApp({ value }) {
     return (
         <>
             <h1>Counter App</h1>
-            <h2> { counter } </h2>
+            <h2 data-testid='counter'>{ counter }</h2>
 
             <button onClick={ increaseCounter }> +1 </button>
             <button onClick={ subtractCounter }> -1 </button>
